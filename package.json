@@ -1,0 +1,36 @@
+{
+  "name": "prism-port-killer",
+  "version": "1.0.0",
+  "description": "Zero-dependency cross-platform CLI to list listening ports and kill whatever is stuck on :3000, :5173 or any range — macOS, Linux and Windows.",
+  "bin": {
+    "portkill": "bin/portkill.js"
+  },
+  "main": "src/index.js",
+  "files": [
+    "bin",
+    "src"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "cli",
+    "port",
+    "kill-port",
+    "eaddrinuse",
+    "devtools",
+    "nodejs",
+    "developer-tools",
+    "prism-protocol"
+  ],
+  "author": "Soumya Bhandare (krishyaa06)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krishyaa06/prism-port-killer.git"
+  },
+  "homepage": "https://github.com/krishyaa06/prism-port-killer#readme",
+  "engines": {
+    "node": ">=18.17"
+  }
+}
